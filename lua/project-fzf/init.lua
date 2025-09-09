@@ -11,9 +11,9 @@ if not has_project then
 	return
 end
 
-local history = require("project.utils.history")
-local project = require("project.project")
-local config = require("project.config")
+local history = require("project").utils.history
+local project = require("project").project
+local config = require("project").config
 
 local M = {}
 
