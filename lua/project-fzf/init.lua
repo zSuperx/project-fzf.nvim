@@ -11,9 +11,9 @@ if not has_project then
 	return
 end
 
-local history = require("project_nvim.utils.history")
-local project = require("project_nvim.project")
-local config = require("project_nvim.config")
+local history = require("project.utils.history")
+local project = require("project.project")
+local config = require("project.config")
 
 local M = {}
 
