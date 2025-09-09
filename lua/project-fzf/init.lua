@@ -4,8 +4,8 @@ if not has_fzf_lua then
 	error("fzf-lua is a dependency of project-fzf")
 	return
 end
-
-local has_project = pcall(require, "project_nvim")
+-- changing 'project_nvim' to 'project' literally the only change that's required
+local has_project = pcall(require, "project")
 if not has_project then
 	error("project_nvim is a dependency of project-fzf")
 	return
